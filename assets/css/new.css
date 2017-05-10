@@ -3,8 +3,13 @@
 }
 
 .main_part {
-background-image: url(../../images/banner.jpg);
-/*background-color: black;*/
+/*background-image: url(../../images/banner.jpg);*/
+background-color: black;
+}
+
+
+.new_logo {
+	padding: 4em 0 4em 0;
 }
 
 .row > .column {
