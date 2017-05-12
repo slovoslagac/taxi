@@ -1,3 +1,4 @@
+<?php include_once("../analyticstracking.php") ?>
 <!DOCTYPE HTML>
 <!--
 	TXT by HTML5 UP
@@ -6,32 +7,17 @@
 -->
 <html>
 <head>
-    <title>BG Taxi - 19800</title>
-    <meta charset="utf-8"/>
-    <link rel="icon" href="images/icon-sivi.png">
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <link rel="stylesheet" href="assets/css/main.css"/>
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="assets/css/new.css"/>
+	<?php include 'assets/layouts/head.php'?>
 </head>
 <body>
 <div id="page-wrapper">
 
 
     <!-- Nav -->
-    <nav id="nav">
-        <div class="container">
-            <ul>
-                <li class="pull-left"><a href="index.html">Home</a></li>
-                <li class="pull-left"><a href="friends.html">Prijatelji</a></li>
-                <li class="current pull-left"><a href="gallery.html">Galerija</a></li>
-                <li class="pull-left"><a href="contact.html">Kontakt</a></li>
-                <li class="pull-left"><a href="about.html">O Nama</a></li>
-                <li class="pull-right"><a href="index.html"><img src="images/rs.png"></a></li>
-                <li class="pull-right"><a href="#"> <img src="images/uk.png"></a></li>
-            </ul>
-        </div>
-    </nav>
+    <?php 
+    $currentpage = basename($_SERVER["SCRIPT_FILENAME"]);
+
+    include 'assets/layouts/header_nav.php'?>
 
     <!-- Main -->
     <div id="page-wrapper">
@@ -105,33 +91,7 @@
 
 
     <!-- Footer -->
-    <footer id="footer" class="container">
-
-        <div class="row 200%">
-            <div class="12u">
-
-                <!-- Contact -->
-                <section>
-                    <h2 class="major"><span>Budimo u kontaktu</span></h2>
-                    <ul class="contact">
-                        <li><a class="icon fa-facebook" href="#"><span class="label">Facebook</span></a></li>
-                        <li><a class="icon fa-twitter" href="#"><span class="label">Twitter</span></a></li>
-                        <li><a class="icon fa-instagram" href="#"><span class="label">Instagram</span></a></li>
-                    </ul>
-                </section>
-
-            </div>
-        </div>
-
-        <!-- Copyright -->
-        <div id="copyright">
-            <ul class="menu">
-                <li>2017 @ bgtaxi 19800</li>
-                <li>Design: <a href="#">Slovoslagac</a></li>
-            </ul>
-        </div>
-
-    </footer>
+    <?php include 'assets/layouts/footer.php'?>
 
 </div>
 

@@ -73,7 +73,7 @@
 						'<nav>' +
 							$('#nav').navList() +
 						'</nav>' +
-						'<div class="language_mobile_position"><a href="index.php"><img src="images/rs.png"></a><a href="en/index.php"><img src="images/uk.png"></a></div>' +
+						'<div class="language_mobile_position"><a href="../index.php"><img src="images/rs.png"></a><a href="index.php"><img src="images/uk.png"></a></div>' +
 					'</div>'
 				)
 					.appendTo($body)
