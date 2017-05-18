@@ -4,6 +4,9 @@ body {
     color: #000000;
 }
 
+audio {
+    background-color: #fff100;
+}
 
 .title {
     font-family: 'Sarpanch', sans-serif;

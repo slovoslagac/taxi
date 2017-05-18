@@ -7,16 +7,16 @@
 -->
 <html>
 <head>
-    <?php include 'assets/layouts/head.php'?>
+    <?php include 'assets/layouts/head.php' ?>
 
 </head>
 <body class="homepage">
 <div id="page-wrapper">
     <!-- Nav -->
-    <?php 
+    <?php
     $currentpage = basename($_SERVER["SCRIPT_FILENAME"]);
 
-    include 'assets/layouts/header_nav.php'?>
+    include 'assets/layouts/header_nav.php' ?>
 
     <!-- Banner -->
 
@@ -25,19 +25,22 @@
         <h1><a href="index.php" id="logo"><strong>BG TAXI&nbsp;&nbsp;&nbsp;&nbsp;19800</strong></a></h1>
         <span id="logoDetail" class="pull-right "></span>
     </div>
-<br>
-<br>
+    <br>
+    <br>
     <div class="container main_part new_logo">
-
-
-        
-
         <img class="img-responsive center-block logo_central_position" src="images/bgtaxi-transparent-slow.gif" alt=""/>
 
     </div>
+
     <br>
+    <div >
+        <audio autoplay controls class="center-block">
+            <source src="audio/bg.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+
     <br>
-      <!-- Main -->
+    <!-- Main -->
     <div id="main-wrapper">
         <div id="main" class="container">
             <div class="row 200%">
@@ -50,7 +53,7 @@
     </div>
 
     <!-- Footer -->
-    <?php include 'assets/layouts/footer.php'?>
+    <?php include 'assets/layouts/footer.php' ?>
 
 </div>
 
