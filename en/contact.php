@@ -34,9 +34,14 @@
 							<div class="3u 12u(mobile)">
 								<h3>Call centar</h3>
 								<p>19800</p>
+								<p>info@bgtaxi.rs</p>
+								<br>
+								<h4>Address</h4>
+								<p>Gospodara Vucica 180</p>
+								<p>11000 Belgrade</p>
 							</div>
 							<div class="9u 12u(mobile) important(mobile)">
-								<iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d1415.4210134484304!2d20.478914400598416!3d44.804407984877166!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1494279035833" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2831.504018767708!2d20.49150801579726!3d44.790915986135026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a707d7e9a5dd9%3A0x1abe9d4268dc702a!2sGospodara+Vu%C4%8Di%C4%87a+180%2C+Beograd!5e0!3m2!1sen!2srs!4v1495530557873" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 							</div>
 						</div>
 						<div class="row 200%">

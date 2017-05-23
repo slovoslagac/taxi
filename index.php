@@ -24,6 +24,7 @@
     <div class="text-center">
         <h1><a href="index.php" id="logo"><strong>BG TAXI&nbsp;&nbsp;&nbsp;&nbsp;19800</strong></a></h1>
         <span id="logoDetail" class="pull-right "></span>
+
     </div>
     <br>
     <br>
@@ -34,7 +35,7 @@
 
     <br>
     <div >
-        <audio autoplay controls class="center-block">
+        <audio autoplay controls class="center-block" id="reklama">
             <source src="audio/bg.mp3" type="audio/mpeg">
         </audio>
     </div>
@@ -64,6 +65,9 @@
 <script src="assets/js/skel-viewport.min.js"></script>
 <script src="assets/js/util.js"></script>
 <script src="assets/js/main.js"></script>
-
+<script>
+    var vid = document.getElementById("reklama");
+    vid.volume = 0.1;
+</script>
 </body>
 </html>
